@@ -1,0 +1,38 @@
+[
+    {
+        "stepNumber": 1,
+        "title": "Horario",
+        "description": "Entra a tu cuenta de AcademuSoft y dirígete a la sección de 'Horario'.",
+        "image": "/images/horario.jpg"
+    },
+    {
+        "stepNumber": 2,
+        "title": "Ir al marco",
+        "description": "Ubica la parte de la página donde aparece tu horario. Coloca el puntero del mouse sobre él, haz clic derecho y selecciona la opción 'Ver fuente del marco'.",
+        "image": "/images/horario - clic derecho.jpg"
+    },
+    {
+        "stepNumber": 3,
+        "title": "Código fuente del horario",
+        "description": "Se abrirá una nueva pestaña con un texto extenso y poco entendible. No te preocupes, es normal: allí está la información de tu horario.",
+        "image": "/images/codigo fuente.jpg"
+    },
+    {
+        "stepNumber": 4,
+        "title": "Guardar el código fuente",
+        "description": "En la pestaña del código fuente, haz clic derecho y selecciona la opción 'Guardar como'.",
+        "image": "/images/codigo fuente - clic derecho.jpg"
+    },
+    {
+        "stepNumber": 5,
+        "title": "Elegir carpeta de destino",
+        "description": "Selecciona la carpeta donde quieras guardar el archivo. Asegúrate de recordar su ubicación, porque lo necesitarás en el siguiente paso.",
+        "image": "/images/guardar horario.jpg"
+    },
+    {
+        "stepNumber": 6,
+        "title": "OPCIONAL - Cambiar nombre",
+        "description": "Si quieres, cámbiale el nombre al archivo por uno más sencillo de recordar, ya que el original suele ser largo y confuso.",
+        "image": "/images/guardar horario - cambio de nombre.jpg"
+    }
+]
