@@ -178,5 +178,5 @@ export function generateScheduleImageFromJSON(data: ProcessedClass[]): string {
     );
   });
 
-  return canvas.toDataURL({format: "png"});
+  return canvas.toDataURL({format: "png", multiplier: 1});
 }
