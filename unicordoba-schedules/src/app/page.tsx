@@ -1,6 +1,20 @@
+"use client";
+
+import { get } from "http";
 import Link from "next/link";
+import { useEffect } from "react";
 
 export default function Home() {
+  useEffect(() => {
+    fetch("/api/ping", { method: "GET"})
+      .then(res => res.json())
+      .then(data => {
+        console.log("Ping recibido:", data);
+      })
+      .catch(err => {
+        console.error("Error en el ping:", err);
+      });
+  }, []);
   return (
       <section className="flex flex-col items-center justify-center flex-1 px-4">
         <div className="max-w-2xl text-center">
